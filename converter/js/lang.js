@@ -60,7 +60,7 @@ if (document.cookie.includes("lang=de")) {
 } else if (document.cookie.includes("lang=en")) {
     english()
 } else {
-    if (navigator.language.includes("de") || navigator.userLanguage.includes("de")) {
+    if (navigator.language == "de-DE" || navigator.userLanguage == "de-DE") {
         german()
         document.cookie = "lang=de; path=/";
     } else {
