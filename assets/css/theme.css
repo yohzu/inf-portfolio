@@ -60,7 +60,7 @@
 	background: #181825;
 }
 
-@media (max-width: 1300px), (max-height: 1000px) {
+@media (max-width: 1300px), (max-height: 870px) {
 	.dark-theme .portfolio-right {
 		border: none;
 	}

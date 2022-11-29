@@ -88,6 +88,7 @@ header img:hover {
 	font-size: 70px;
 	width: 100%;
 	padding-top: 4vh;
+	margin-bottom: 0;
 }
 
 .portfolio-right {
@@ -121,7 +122,7 @@ footer {
 	bottom: 0;
 }
 
-@media (max-width: 1300px), (max-height: 1000px) {
+@media (max-width: 1300px), (max-height: 870px) {
 	main {
 		height: fit-content;
 	}
