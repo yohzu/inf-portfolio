@@ -6,10 +6,10 @@ function german() {
     document.getElementById("about-short").textContent = "16-jähriger Schüler, Deutschland";
 
     document.getElementById("Header-Privacy").textContent = "Privatsphäre ist mir wichtig.";
-    document.getElementById("Content-Privacy").textContent = "Privatsphäre und Datenschutz sind für mich sehr wichtige Themen. Das ist auch, wieso ich aufgehört habe, verdächtige und unseriöse proprietäre Software, wie das Windows Betriebssystem zum Beispiel, zu nutzen. Ich glaube daran, dass die Privatsphäre ein fundamentelles Menschenrecht ist, dass niemals von irgendwem verletzt werden sollte. Einer der wichtigsten Dinge, die jemand tun kann, um seine Daten für sich zu behalten, ist, Open Source Software zu verwenden, welcher man vertrauen kann.";
+    document.getElementById("Content-Privacy").textContent = "Privatsphäre und Datenschutz sind für mich sehr wichtige Themen. Das ist auch, wieso ich aufgehört habe, verdächtige und unseriöse proprietäre Software, wie das Windows Betriebssystem zum Beispiel, zu nutzen. Ich glaube daran, dass die Privatsphäre ein fundamentelles Menschenrecht ist, dass niemals von irgendwem verletzt werden sollte. Ich bin ein großer Unterstützer von Free und Open Source Software (FOSS) und veröffentliche meinen Code ausschließlich unter Open Source Lizensen.";
 
-    document.getElementById("Header-Linux").textContent = "Ich nutze Linux (btw)";
-    document.getElementById("Content-Linux").textContent = "Seit ungefähr 1.5 Jahren verwende ich Linux als meinen Daily Driver und würde auch nie zu Windows zurückgehen wollen. Auch wenn es manchmal ein paar kleine Kompatibilitätsprobleme gibt, war meine Erfahrung mit Linux bisher sehr angenehm. Linux zu nutzen ist auch ein wichtiger Teil meines Privatsphäreschutzes.";
+    document.getElementById("Header-Linux").textContent = "Ich nutze Linux (btw).";
+    document.getElementById("Content-Linux").textContent = "Seit ungefähr 1.5 Jahren verwende ich Linux als meinen Daily Driver und würde auch nie zu Windows zurückgehen wollen. Linux garantiert mir ein stabil laufendes System, welches ich nach Belieben anpassen kann und ich vertrauen kann. Ein Open Source Betriebssystem zu nutzen bietet mir Freiheit und volle Kontrolle über meine Daten.";
 
     document.getElementById("Header-Selfhosting").textContent = "Ich hoste selbst.";
     document.getElementById("Content-Selfhosting").textContent = "Schon bevor ich Linux auf dem Desktop verwendet habe, hatte ich mir einen Raspberry Pi 4B zugelegt, welchen ich zuerst als Minecraft Server nutzte und danach, um sämtliche Services zu hosten. Dieser Pi hatte mein Interesse für Selfhosting geweckt. Seitdem habe ich mir einen Homeserver/NAS zugelegt, auf welchem Proxmox läuft. Dieser Server erlaubt es mir, Services zu nutzen, wie YouTube oder Google, und Daten zu speichern, ohne meine Seele an einen dubiosen Tech Konzern zu verkaufen. Demächst möchte ich Ansible lernen, um das Aufsetzen und Konfigurieren meines kleinen Homelabs zu automatisieren.";
@@ -33,10 +33,10 @@ function english() {
     document.getElementById("about-short").textContent = "16 y/o student, Germany";
 
     document.getElementById("Header-Privacy").textContent = "Privacy advocate";
-    document.getElementById("Content-Privacy").textContent = "Privacy and data security are very important topics for me. That's why I stopped using suspicious and untrustworthy proprietary software like the Windows operating system for example. My belief is that privacy is a fundamental human right that should never be violated by anyone. One of the most important things to do when trying to keep your data for yourself is using open source applications, that you can trust.";
+    document.getElementById("Content-Privacy").textContent = "Privacy and data security are very important topics for me. That's why I stopped using suspicious and untrustworthy proprietary software like the Windows operating system for example. My belief is, that privacy is a fundamental human right that should never be violated by anyone. I am a huge supporter of Free and Open Source Software (FOSS) and release all my code under open source licenses";
 
     document.getElementById("Header-Linux").textContent = "Linux user (btw)";
-    document.getElementById("Content-Linux").textContent = "I've been daily driving Linux for about 1.5 years now and would never go back Windows, which I had used beforehand. Even though there might be some compatibility issues sometimes, it has been a very pleasant experience for me. This is also a very important part of keeping my privacy in my everyday life.";
+    document.getElementById("Content-Linux").textContent = "I've been daily driving Linux for about 1.5 years now and would never go back Windows, which I had used beforehand. Linux guarantees me a stable system, which I can customize however I want and that I can trust. Using an open source operating system grants me freedom and full control over my data.";
 
     document.getElementById("Header-Selfhosting").textContent = "I self-host";
     // Do teachers actually read the full code? 🤔

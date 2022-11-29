@@ -1,6 +1,6 @@
 function german() {
     lang = "de";
-    document.getElementById("title").textContent = "Umwandler";
+    document.getElementById("title").textContent = "yohzu | Umwandler";
 
     document.getElementById("nav-projects").textContent = "Projekte";
     document.getElementById("nav-converter").textContent = "Umwandler";
@@ -28,7 +28,7 @@ function german() {
 
 function english() {
     lang = "en";
-    document.getElementById("title").textContent = "Converter";
+    document.getElementById("title").textContent = "yohzu | Converter";
 
     document.getElementById("nav-projects").textContent = "Projects";
     document.getElementById("nav-converter").textContent = "Converter";
