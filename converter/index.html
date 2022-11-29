@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title id="title">bin/dec/hex converter</title>
+		<link rel="stylesheet" href="../assets/css/theme.css">
+		<link rel="stylesheet" href="./converter.css">
+		<link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon">
+	</head>
+	<body id="themechange">
+		<main>
+		<header>
+			<nav class="menu">
+				<a href="../" style="text-decoration: none;">Portfolio</a>&nbsp;&nbsp;&nbsp;<a href="./">Converter</a>
+			</nav>
+			<div class="buttons">
+				<img title="change language" src="../assets/img/flags/de.svg" onclick="langToggle();" id="lang-toggleimg";>
+				<img title="toggle dark/white mode" src="../assets/img/bright-dark/sun.svg" onclick="themeToggle();" id="theme-toggleimg";>
+			</div>
+		</header>
+		<div class="converter-container">
+			<div class="numbersys-converter" id="themechange">
+				<input type="text" id="input">
+				<select id="inType">
+					<option value="bin" id="bin">Binary</option>
+					<option value="dec" id="dec">Decimal</option>
+					<option value="hex" id="hex">Hexadecimal</option>
+				</select>
+				&nbsp;
+				<h id="to">to</h>
+				&nbsp;
+				<select id="outType">
+					<option value="bin" id="bin2">Binary</option>
+					<option value="dec" id="dec2">Decimal</option>
+					<option value="hex" id="hex2">Hexadecimal</option>
+				</select>
+				&nbsp;
+				<button type="button" id="convert-button" onclick="converter();">--convert-></button>
+				&nbsp;
+				<h id="output" title="Click to copy" onclick="clickToCopy();"></h>
+			</div>
+		</div>
+		</main>
+		<footer id="themechange">
+			<p id="p-footer"><a href="https://github.com/" target="_blank">Source</a> • Designed by <a href="https://github.com/yohzu/" target="_blank">Oliver Kuehn</a></p>
+		</footer>
+		<script type="text/javascript" src="./js/theme.js"></script>
+		<script type="text/javascript" src="./js/lang.js"></script>
+		<script type="text/javascript" src="./js/convert.js"></script>
+	</body>
+</html>

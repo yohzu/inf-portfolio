@@ -1,0 +1,77 @@
+/* transition */
+.doTransition {
+	transition: 200ms;
+}
+
+/* bright */
+/* bright */
+/* bright */
+.bright-theme {
+	background: #eff1f5;
+	color: #4c4f69;
+}
+
+.bright-theme a {
+	color: #5c5f77;
+}
+
+.bright-theme a:hover {
+	color: #7287fd;
+}
+
+.bright-theme .portfolio-left {
+	border-right: 1px solid #4c4f69;
+}
+
+.bright-theme .portfolio-right {
+    border-left: 1px solid #4c4f69;
+}
+
+.bright-theme footer {
+	background: #e6e9ef;
+}
+
+
+/* dark */
+/* dark */
+/* dark */
+.dark-theme {
+	background: #1e1e2e;
+	color: white;
+}
+
+.dark-theme a {
+	color: #cdd6f4;
+}
+
+.dark-theme a:hover {
+	color: #9399b2;
+}
+
+.dark-theme .portfolio-left {
+	border-right: 1px solid white;
+}
+
+.dark-theme .portfolio-right {
+    border-left: 1px solid #4c4f69;
+}
+
+.dark-theme footer {
+	background: #181825;
+}
+
+@media (max-width: 1300px) {
+	.dark-theme .portfolio-right {
+		border: none;
+	}
+	.dark-theme .portfolio-left {
+		border: none;
+	}
+
+	.bright-theme .portfolio-right {
+		border: none;
+	}
+	.bright-theme .portfolio-left {
+		border: none;
+	}
+}

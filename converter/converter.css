@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+::selection {
+	color: black;
+	background-color: #cdd6f4;
+}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'Manrope', sans-serif;
+}
+
+main {
+	height:	100vh;	
+}
+
+header {
+	height: 7vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 2;
+}
+
+header img {
+	height: 3vh;
+	margin: 5px;
+}
+
+header .buttons img {
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+header img:hover {
+	cursor: pointer;
+}
+
+.menu {
+	user-select: none;
+	cursor:default;
+	font-size: larger;
+	font-weight: bolder;
+	margin-left: 50px;
+}
+
+.buttons {
+	margin-right: 50px;
+}
+
+.converter-container {
+    width: 100%;
+    height: 100vh;
+    position: absolute;   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.numbersys-converter {
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 3;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+}
+
+select {
+	border: none;
+	border-radius: 5px;
+}
+
+input {
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#output:hover {
+	cursor: pointer;
+}
+
+footer {
+	height: 10vh;
+	width: 100%;
+	background: #181825;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 0;
+}
+
+
+/* bright and dark theme */
+.bright-theme .numbersys-converter {
+	border: 2px solid #7287fd;
+	background-color: #ccd0da;
+}
+
+.bright-theme button {
+	color: #4c4f69;
+	background-color: #e6e9ef;
+	
+}
+
+.bright-theme select {
+	color: #4c4f69	;
+	background-color: #e6e9ef;
+}
+
+.bright-theme input {
+	color: #4c4f69	;
+	background-color: #e6e9ef;
+}
+
+.dark-theme .numbersys-converter {
+	border: 2px solid #b4befe;
+	background-color: #45475a;
+}
+
+.dark-theme button {
+	color: #cdd6f4;
+	background-color: #313244;
+}
+
+.dark-theme select {
+	color: #cdd6f4;
+	background-color: #313244;
+}
+
+.dark-theme input {
+	color: #cdd6f4;
+	background-color: #313244;
+}
