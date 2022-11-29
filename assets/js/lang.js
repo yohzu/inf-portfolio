@@ -33,6 +33,7 @@ function english() {
     document.getElementById("Content-Linux").textContent = "I've been daily driving Linux for about 1.5 years now and would never go back Windows, which I had used beforehand. Even though there might be some compatibility issues sometimes, it has been a very pleasant experience for me. This is also a very important part of keeping my privacy in my everyday life.";
 
     document.getElementById("Header-Selfhosting").textContent = "I self-host";
+    // Do teachers actually read the full code? 🤔
     document.getElementById("Content-Selfhosting").textContent = "Even before I had been using Linux on the Desktop, I had bought a Raspberry Pi 4B which I first used as a Minecraft server and then to host multiple services myself. This has started my homelabbing journey. I now have my own Homeserver/NAS which runs Proxmox. This allows me to use services like YouTube or Google and store data without having to sell my soul to some ominous tech company. Right now I'm looking forward to learn Ansible to automate setting up my small homelab.";
 
     document.getElementById("Header-Mail").textContent = "If you have any questions..";
