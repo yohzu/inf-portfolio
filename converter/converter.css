@@ -141,3 +141,21 @@ footer {
 	color: #cdd6f4;
 	background-color: #313244;
 }
+
+@media (max-width: 500px) {
+
+	header a {
+		font-size: 17px;
+	}
+
+	header .menu {
+		margin-left: 10px;
+		float: left;
+	}
+
+	header .buttons {
+		margin-right: -5px;
+		float: right;
+		margin-left: auto;
+	}
+}
