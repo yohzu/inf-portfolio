@@ -13,7 +13,7 @@ function german() {
     document.getElementById("convert-button").textContent = "--umwandeln->";
 
 
-    document.getElementById("p-footer").innerHTML = "<a href='https://github.com/' target='_blank'>Quelle</a> • Entworfen von <a href='https://github.com/yohzu/' target='_blank'>yohzu</a>";
+    document.getElementById("p-footer").innerHTML = "<a href='https://github.com/yohzu/inf-portfolio' target='_blank'>Quelle</a> • Entworfen von <a href='https://github.com/yohzu/' target='_blank'>yohzu</a>";
 
     document.getElementById("lang-toggleimg").src = "../assets/img/flags/uk.svg";
 
