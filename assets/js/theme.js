@@ -23,12 +23,12 @@ function themeToggle() {
     if (theme == "dark") {
         brightTheme()
         doTransition()
-        document.cookie = "theme=bright";
+        document.cookie = "theme=bright; path=/";
     }
     else if (theme == "bright") {
         darkTheme()
         doTransition()
-        document.cookie = "theme=dark";
+        document.cookie = "theme=dark; path=/";
     }
 }
 
@@ -40,10 +40,10 @@ if (document.cookie.includes("theme=bright")) {
     const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
     if (darkThemeMq.matches) {
         darkTheme()
-        document.cookie = "theme=dark";
+        document.cookie = "theme=dark; path=/";
     } else {
         brightTheme()
-        document.cookie = "theme=bright";
+        document.cookie = "theme=bright; path=/";
     }
 }
 

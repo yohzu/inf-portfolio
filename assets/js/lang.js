@@ -45,11 +45,11 @@ function english() {
 function langToggle() {
     if (lang == "de") {
         english()
-        document.cookie = "lang=en";
+        document.cookie = "lang=en; path=/";
     }
     else if (lang == "en") {
         german()
-        document.cookie = "lang=de";
+        document.cookie = "lang=de; path=/";
     }
 }
 
@@ -61,11 +61,9 @@ if (document.cookie.includes("lang=de")) {
 } else {
     if (navigator.language == "de-DE" || navigator.userLanguage == "de-DE") {
         german()
-        document.cookie = "lang=de";
-        const lang = "de";
+        document.cookie = "lang=de; path=/";
     } else {
         english()
-        document.cookie = "lang=en";
-        const lang = "en";
+        document.cookie = "lang=en; path=/";
     }
 }
