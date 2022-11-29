@@ -12,7 +12,7 @@ function german() {
     document.getElementById("Header-Mail").textContent = "Falls noch Fragen offen sind.."
     document.getElementById("Content-Mail").innerHTML = "..dann schreib mir doch eine E-Mail: <a href='mailto:yohzu@sigmacorp.agency'>yohzu@sigmacorp.agency</a>."
 
-    document.getElementById("p-footer").innerHTML = "<a href='https://github.com/inf-portfolio' target='_blank'>Quelle</a> • Entworfen von <a href='https://github.com/yohzu/' target='_blank'>yohzu</a>";
+    document.getElementById("p-footer").innerHTML = "<a href='https://github.com/yohzu/inf-portfolio' target='_blank'>Quelle</a> • Entworfen von <a href='https://github.com/yohzu/' target='_blank'>yohzu</a>";
 
     document.getElementById("lang-toggleimg").src = "./assets/img/flags/uk.svg";
 
