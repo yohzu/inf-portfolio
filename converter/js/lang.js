@@ -35,7 +35,7 @@ function english() {
 
     document.getElementById("convert-button").textContent = "--convert->";
 
-    document.getElementById("p-footer").innerHTML = "<a href='https://github.com/' target='_blan'>Source</a> • Designed by <a href='https://github.com/yohzu/' target='_blank'>yohzu</a>"
+    document.getElementById("p-footer").innerHTML = "<a href='https://github.com/yohzu/inf-portfolio' target='_blan'>Source</a> • Designed by <a href='https://github.com/yohzu/' target='_blank'>yohzu</a>"
 
     document.getElementById("lang-toggleimg").src = "../assets/img/flags/de.svg";
 
@@ -60,7 +60,7 @@ if (document.cookie.includes("lang=de")) {
 } else if (document.cookie.includes("lang=en")) {
     english()
 } else {
-    if (navigator.language == "de-DE" || navigator.userLanguage == "de-DE") {
+    if (navigator.language.includes("de") || navigator.userLanguage.includes("de")) {
         german()
         document.cookie = "lang=de; path=/";
     } else {

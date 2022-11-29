@@ -34,7 +34,7 @@ function english() {
     document.getElementById("Header-Mail").textContent = "If you have any questions.."
     document.getElementById("Content-Mail").innerHTML = "..just send me an e-mail at <a href='mailto:yohzu@sigmacorp.agency'>yohzu@sigmacorp.agency</a>."
 
-    document.getElementById("p-footer").innerHTML = "<a href='https://github.com/' target='_blank'>Source</a> • Designed by <a href='https://github.com/yohzu/' target='_blank'>yohzu</a>";
+    document.getElementById("p-footer").innerHTML = "<a href='https://github.com/yohzu/inf-portfolio' target='_blank'>Source</a> • Designed by <a href='https://github.com/yohzu/' target='_blank'>yohzu</a>";
 
     document.getElementById("lang-toggleimg").src = "./assets/img/flags/de.svg";
 
@@ -59,7 +59,7 @@ if (document.cookie.includes("lang=de")) {
 } else if (document.cookie.includes("lang=en")) {
     english()
 } else {
-    if (navigator.language == "de-DE" || navigator.userLanguage == "de-DE") {
+    if (navigator.language.includes("de") || navigator.userLanguage.includes("de")) {
         german()
         document.cookie = "lang=de; path=/";
     } else {
