@@ -68,4 +68,3 @@ if (document.cookie.includes("lang=de")) {
         document.cookie = "lang=en; path=/";
     }
 }
-
