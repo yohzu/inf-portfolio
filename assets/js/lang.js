@@ -1,5 +1,8 @@
 function german() {
     lang = "de";
+    document.getElementById("nav-projects").textContent = "Projekte";
+    document.getElementById("nav-converter").textContent = "Umwandler";
+
     document.getElementById("about-short").textContent = "16-jähriger Schüler, Deutschland";
 
     document.getElementById("Header-Privacy").textContent = "Privatsphäre ist mir wichtig.";
@@ -24,6 +27,9 @@ function german() {
 
 function english() {
     lang = "en";
+    document.getElementById("nav-projects").textContent = "Projects";
+    document.getElementById("nav-converter").textContent = "Converter";
+
     document.getElementById("about-short").textContent = "16 y/o student, Germany";
 
     document.getElementById("Header-Privacy").textContent = "Privacy advocate";

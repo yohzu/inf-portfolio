@@ -1,5 +1,10 @@
 function german() {
     lang = "de";
+    document.getElementById("title").textContent = "Umwandler";
+
+    document.getElementById("nav-projects").textContent = "Projekte";
+    document.getElementById("nav-converter").textContent = "Umwandler";
+
     document.getElementById("bin").textContent = "Binär";
     document.getElementById("dec").textContent = "Dezimal";
     document.getElementById("hex").textContent = "Hexadezimal";
@@ -23,6 +28,11 @@ function german() {
 
 function english() {
     lang = "en";
+    document.getElementById("title").textContent = "Converter";
+
+    document.getElementById("nav-projects").textContent = "Projects";
+    document.getElementById("nav-converter").textContent = "Converter";
+
     document.getElementById("bin").textContent = "Binary";
     document.getElementById("dec").textContent = "Decimal";
     document.getElementById("hex").textContent = "Hexadecimal";
