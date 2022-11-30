@@ -33,7 +33,7 @@ function english() {
     document.getElementById("about-short").textContent = "16 y/o student, Germany";
 
     document.getElementById("Header-Privacy").textContent = "Privacy advocate";
-    document.getElementById("Content-Privacy").textContent = "Privacy and data security are very important topics for me. That's why I stopped using suspicious and untrustworthy proprietary software like the Windows operating system for example. My belief is, that privacy is a fundamental human right that should never be violated by anyone. I am a huge supporter of Free and Open Source Software (FOSS) and release all my code under open source licenses";
+    document.getElementById("Content-Privacy").textContent = "Privacy and data security are very important topics for me. That's why I stopped using suspicious and untrustworthy proprietary software like the Windows operating system for example. My belief is, that privacy is a fundamental human right that should never be violated by anyone. I am a huge supporter of Free and Open Source Software (FOSS) and release all my code under open source licenses.";
 
     document.getElementById("Header-Linux").textContent = "Linux user (btw)";
     document.getElementById("Content-Linux").textContent = "I've been daily driving Linux for about 1.5 years now and would never go back Windows, which I had used beforehand. Linux guarantees me a stable system, which I can customize however I want and that I can trust. Using an open source operating system grants me freedom and full control over my data.";

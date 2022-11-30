@@ -46,7 +46,3 @@ if (document.cookie.includes("theme=bright")) {
         document.cookie = "theme=bright; path=/";
     }
 }
-
-
-
-
